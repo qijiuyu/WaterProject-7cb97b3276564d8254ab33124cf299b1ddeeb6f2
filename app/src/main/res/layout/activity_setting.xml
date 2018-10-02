@@ -364,39 +364,6 @@
 
                 </LinearLayout>
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="35dp"
-                    android:visibility="gone"
-                    android:orientation="horizontal"
-                    android:layout_marginRight="30dp"
-                    android:layout_marginLeft="30dp"
-                    android:layout_marginBottom="20dp">
-
-                    <TextView
-                        android:id="@+id/tv_aso_jc"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        android:text="基础信息"
-                        android:textSize="16sp"
-                        android:gravity="center"
-                        android:textColor="@android:color/white"
-                        android:background="@drawable/bg_setting_select"/>
-
-                    <TextView
-                        android:id="@+id/tv_aso_yq"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:text="仪器信息"
-                        android:textSize="16sp"
-                        android:textColor="@color/color_1fc37f"
-                        android:background="@drawable/bg_setting"/>
-
-                </LinearLayout>
-
             </LinearLayout>
 
         </LinearLayout>

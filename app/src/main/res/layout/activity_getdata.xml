@@ -27,7 +27,7 @@
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="25dp"
+                android:layout_height="35dp"
                 android:layout_marginTop="20dp">
 
                 <TextView
@@ -57,7 +57,7 @@
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="25dp"
+                android:layout_height="35dp"
                 android:layout_marginTop="10dp">
 
                 <TextView
@@ -87,7 +87,7 @@
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="25dp"
+                android:layout_height="35dp"
                 android:layout_marginTop="10dp">
 
                 <TextView
@@ -124,7 +124,7 @@
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="25dp"
+                android:layout_height="35dp"
                 android:layout_marginTop="10dp">
 
                 <TextView
@@ -158,7 +158,7 @@
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="25dp"
+                android:layout_height="35dp"
                 android:layout_marginTop="10dp">
 
                 <TextView
@@ -190,7 +190,7 @@
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="25dp"
+                android:layout_height="35dp"
                 android:layout_marginTop="10dp">
 
                 <TextView
@@ -209,7 +209,7 @@
                     android:layout_alignParentRight="true"
                     android:gravity="right|center"
                     android:inputType="phone"
-                    android:text="0.6532mS/cm"
+                    android:text="650.20uS/cm"
                     android:textSize="15sp"
                     android:textColor="@color/color_1fc37f"/>
 
@@ -222,7 +222,7 @@
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="25dp"
+                android:layout_height="35dp"
                 android:layout_marginTop="10dp">
 
                 <TextView
@@ -256,7 +256,7 @@
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="25dp"
+                android:layout_height="35dp"
                 android:layout_marginTop="10dp">
 
                 <TextView
@@ -289,7 +289,7 @@
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="25dp"
+                android:layout_height="35dp"
                 android:layout_marginTop="10dp">
 
                 <TextView
@@ -323,7 +323,7 @@
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="25dp"
+                android:layout_height="35dp"
                 android:layout_marginTop="10dp">
 
                 <TextView
@@ -357,7 +357,7 @@
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="25dp"
+                android:layout_height="35dp"
                 android:layout_marginTop="10dp">
 
                 <TextView
@@ -390,7 +390,7 @@
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="25dp"
+                android:layout_height="35dp"
                 android:layout_marginTop="10dp">
 
                 <TextView
@@ -423,7 +423,7 @@
 
             <com.water.biaoshu.view.ClickTextView
                 android:layout_width="match_parent"
-                android:layout_height="35dp"
+                android:layout_height="40dp"
                 android:layout_margin="20dp"
                 android:text="更新实时数据"
                 android:textColor="@android:color/white"
