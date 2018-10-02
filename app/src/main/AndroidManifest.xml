@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.water.biaoshu">
+
+    <!-- 判断gps是否打开的权限 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- need -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <!-- baidu -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+    <application
+        android:name=".application.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+
+        <activity
+            android:name=".activity.WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activity.MainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".activity.SettingActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".activity.SearchDataActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".activity.UploadActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".activity.SearchOldActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".activity.ShowImgActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".activity.AboutActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".activity.WeihuJilUActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".activity.DeviceZJActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".activity.WeiHuListActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".activity.WeiHuActivity"  android:screenOrientation="portrait"/>
+        <activity android:name=".photo.BigPhotoActivity"  android:screenOrientation="portrait"/>
+        <activity android:name=".photo.ImageGridActivity"  android:screenOrientation="portrait"/>
+        <activity android:name=".photo.NetBigPhotoActivity"  android:screenOrientation="portrait"/>
+        <activity android:name=".activity.DetailsActivity"  android:screenOrientation="portrait"/>
+        <activity android:name=".activity.WeiHuDetailsActivity"  android:screenOrientation="portrait"/>
+
+    </application>
+
+</manifest>

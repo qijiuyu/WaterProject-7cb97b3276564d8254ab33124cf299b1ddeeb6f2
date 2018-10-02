@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spingarr1">
+    <item>全部</item>
+    <item>地下水动态监测</item>
+    </string-array>
+
+    <string-array name="spingarr2">
+        <item>全部</item>
+        <item>探头异常</item>
+        <item>RTU异常</item>
+        <item>电量过低</item>
+        <item>通讯异常</item>
+    </string-array>
+
+    <string-array name="spingarr3">
+        <item>130222333111</item>
+    </string-array>
+
+    <string-array name="spingarr4">
+        <item>河北监测井1号</item>
+    </string-array>
+
+    <string-array name="spingarr5">
+        <item>未处理</item>
+        <item>已处理</item>
+    </string-array>
+
+    <string-array name="spingarr6">
+        <item>张三</item>
+        <item>李四</item>
+        <item>王五</item>
+    </string-array>
+
+</resources>
