@@ -363,16 +363,6 @@ public class Util extends ClassLoader {
         return bitmap;
     }
 
-    /**
-     * 随机生产文件名
-     *
-     * @return
-     */
-    private static String generateFileName() {
-        return UUID.randomUUID().toString()+"/";
-    }
-
-
     public static void saveImageToGallery(Context context, Bitmap bmp) {
         // 首先保存图片
         File appDir = new File(Environment.getExternalStorageDirectory(), "aaaaaa");
