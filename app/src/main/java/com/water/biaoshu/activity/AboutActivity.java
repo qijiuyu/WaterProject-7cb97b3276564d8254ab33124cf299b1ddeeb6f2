@@ -1,13 +1,16 @@
 package com.water.biaoshu.activity;
 
+import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.ScrollView;
 import android.widget.TextView;
 
 import com.water.biaoshu.R;
+import com.water.biaoshu.utils.Util;
 
 /**
  * 关于我们
@@ -28,6 +31,14 @@ public class AboutActivity extends BaseActivity {
     private void initView(){
         TextView textView=(TextView)findViewById(R.id.tv_head);
         textView.setText("关于我们");
+        final ScrollView scrollView=(ScrollView)findViewById(R.id.scrollView);
+        textView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Bitmap bitmap= Util.screenshot(scrollView);
+                Util.saveImageToGallery(mContext,bitmap);
+            }
+        });
 
         findViewById(R.id.lin_back).setOnClickListener(new View.OnClickListener() {
             @Override
